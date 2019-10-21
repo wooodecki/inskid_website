@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inskid Website</title>
+    <link rel="stylesheet" href="CSS/style.CSS">
+</head>
+
+<body>
+    <!-- <script type="text/javascript" src="nav.js"></script> -->
+
+    <!-- overlay -->
+    <div id="myNav" class="overlay">
+        <!-- close button -->
+        <a href="javascript:void(0)" class="closebtn" oneclick="closeNav()">&times;</a>
+
+        <div class="overlay-content">
+            <a href="#">Strona Główna</a>
+            <a href="gallery.html">Galeria</a>
+            <a href="wydarzenia.html">Wydarzenia</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+    </div>
+    <h1>InSKID Drift Trike Team</h1>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%"
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%"
+        }
+    </script>
+
+    <p>
+        glowna
+    </p>
+
+    <footer>
+        <p>Made by woodecky</p>
+    </footer>
+
+</body>
+
+</html>
